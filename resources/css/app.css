@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-border-color {
+    border-color: #efefef;
+}
+
+.logo-heading {
+    font-size: 31.9px;
+}
+
+.dc-nav-links a {
+    @apply text-gray-300 inline-block py-4 pl-4;
+}
+
+.primary-color,  .dc-nav-links a.primary-color{
+    color: #5a26ff;
+}
