@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.header-border-color {
+.dc-header-border-color {
     border-color: #efefef;
 }
 
@@ -16,4 +16,21 @@
 
 .primary-color,  .dc-nav-links a.primary-color{
     color: #5a26ff;
+}
+
+.login-page-bg {
+    background-image: url("../assets/img/login-bg.png");
+}
+
+.dc-login-box {
+    max-width: 500px;
+}
+
+.dc-login-box h3 {
+    font-size: 22px;
+}
+
+.dc-btn {
+    @apply text-white font-semibold w-full py-3 px-4 rounded;
+    background-color: #5a26ff;
 }

@@ -25,5 +25,35 @@
                 <a class="primary-color font-bold" href="">Login</a>
             </div>
         </div>
+
+
+    <div class="login-page-bg flex">
+        <div class="flex-1">
+            <img src="{{asset('assets/img')}}/login-icon.png" alt="">
+        </div>
+
+        <div class="flex-1">
+            <div class="dc-login-box p-10 shadow mt-10">
+                <h3 class="mb-2">Welcome back</h3>
+                <p>Log in your account & Manage your system</p>
+                <form action="" class="mt-6">
+                    <div class="border-b dc-header-border-color flex items-center mb-4">
+                        <div class="min-w-ma mr-3">
+                            <img src="{{'assets/img/Iconly/Light'}}/profile.svg" alt="">
+                        </div>
+                        <input type="email" placeholder="Email" name="" id="" class="w-full p-3 border-none focus:outline-none focus:border-none">
+                    </div>
+                    <div class="border-b dc-header-border-color flex items-center">
+                        <div class="min-w-ma mr-3">
+                            <img src="{{'assets/img/Iconly/Light'}}/lock.svg" alt="">
+                        </div>
+                        <input type="password" placeholder="Password" name="" id="" class="w-full p-3 border-none focus:outline-none focus:border-none">
+                    </div>
+
+                    <button type="submit" class="dc-btn mt-6">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
